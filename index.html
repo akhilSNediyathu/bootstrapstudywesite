@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>easybook.com</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+    
+</head>
+<body>
+  <!--nav bar starts-->
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning ">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white fw-bold " href="#booknow">Book tickets</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                More service
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Cancel a ticket</a></li>
+                <li><a class="dropdown-item" href="#">Courier srvice</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Check availability</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">log in/sign up</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+   <!--nav bar ends-->
+     <!--carousal starts-->
+
+   
+
+<!--carousal starts-->
+<div id="carouselExampleCaptions" class="carousel slide " >
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./bus1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h4 class="text-danger">plan journey</h4>
+        <p>plan your journey now</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./bus indide.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h4 class="text-danger">easy cancelation</h4>
+        <p>easy cancelation full amount return policy available</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./india.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h4 class="text-danger">tour packages</h4>
+        <p>all india tour packages available</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!--carousal ends-->
+<div class="details">
+<label for="text" >Starting place</label><br>
+<input type="text" value=""><br>
+<label for="text">Destination</label><br>
+<input type="text" value=""><br>
+<button class="btn btn-outline-success" type="submit">view options</button>
+
+</div>
+
+
+<!--booking section-->
+<div class="container " id="booknow">
+  <h3 class="text-primary fw-bold" >Book luxury tickets to your destination now...</h3><br><br>
+<div class="row my-2">
+ <div class="col-4">
+  <div class="card text-centre border-2 border-warning " style="width: 20rem; height: 25rem;">
+    <img src="./Bangalore_.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title text-danger">Banglore</h5>
+      <p class="card-text">explore the beauty of banglore now.</p>
+      <a href="#" class="btn btn-primary">book a ticket to banglore</a>
+    </div>
+  </div>
+ </div>
+ 
+ <div class="col-4">
+  <div class="card text-centre border-2 border-warning" style="width: 20rem; height: 25rem;">
+    <img src="./kerala.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title text-danger">Kerala</h5>
+      <p class="card-text">explore the mindblowing beauty of the godsown country.</p>
+      <a href="#" class="btn btn-primary">visit kerala book now</a>
+    </div>
+  </div>
+ </div>
+ <div class="col-4">
+  <div class="card text-centre border-2 border-warning" style="width: 20rem; height: 25rem;">
+  <img src="./delhi.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title text-danger">Delhi</h5>
+    <p class="card-text">explore the historic city .</p>
+    <a href="#" class="btn btn-primary">book now</a>
+  </div>
+</div></div>
+</div>
+<div class="row my-2">
+  <div class="col-4">
+    <div class="card text-centre border-2 border-warning" style="width: 20rem; height: 25rem;">
+    <img src="./kashmir.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title text-danger">Kashmir</h5>
+      <p class="card-text">explore the beauty of upper india .</p>
+      <a href="#" class="btn btn-primary">book now</a>
+    </div>
+  </div></div>
+  <div class="col-4">
+    <div class="card text-centre border-2 border-warning" style="width: 20rem; height: 25rem;">
+    <img src="./ggoa.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title text-danger">Goa</h5>
+      <p class="card-text">looking for a beach wibe no doubts goa is the right choice for you.</p>
+      <a href="#" class="btn btn-primary">book a ticket to goa</a>
+    </div>
+  </div></div>
+  <div class="col-4">
+    <div class="card text-centre border-2 border-warning" style="width: 20rem; height: 25rem;">
+    <img src="./india.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title text-danger">all India package</h5>
+      <p class="card-text">all india trip in affordable price.</p>
+      <a href="#" class="btn btn-primary">book your tickets now</a>
+    </div>
+  </div></div>
+</div>
+
+
+
+<!--booking section-->
+<div class="container-fluid bg-warning" id="footer">
+  <div class="row">
+    <h1 class="text-centre">Contact us</h1>
+    <div class="col-12">
+      <h4>easybook</h4>
+      <h4>edapally</h4>
+      <h4>kerala</h4>
+      <p>tel:9636617593</p>
+      <p>email:easybook@gmail.com</p>
+      <p>website-www.easybook.com</p>
+
+    
+    </div>
+   
+    
+    </div>
+    </div>
+
+</div>
+
+  
+  
+  
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
